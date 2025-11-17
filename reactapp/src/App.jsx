@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import "./App.css";
 
 function App() {
-  const BASE_URL = "http://localhost:2000/course";
+  const BASE_URL = "http://localhost:30071/course";
 
   const [courses, setCourses] = useState([]);
   const [newCourse, setNewCourse] = useState({
